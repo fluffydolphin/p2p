@@ -1,0 +1,14 @@
+[package]
+name = "p2p"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bootstrap"
+path = "src/bootstrap.rs"
+
+[[bin]]
+name = "peer"
+path = "src/peer.rs"
+
+[dependencies]
